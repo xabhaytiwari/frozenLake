@@ -124,3 +124,5 @@ def evaluate_agent(env, max_steps, n_eval_episodes, Q, seed):
 # Evaluate our Agent
 mean_reward, std_reward = evaluate_agent(env, max_steps, n_eval_episodes, Qtable_frozenlake, eval_seed)
 print(f"Mean_reward={mean_reward:.2f} +/- {std_reward:.2f}")
+
+# Solve Taxi-v3 ~
